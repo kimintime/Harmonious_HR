@@ -1,0 +1,8 @@
+# Sensitive Information
+settings.py
+
+# env files
+
+# General
+.DS_Store
+.AppleDouble
