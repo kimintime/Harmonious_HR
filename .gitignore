@@ -6,4 +6,4 @@ settings.py
 # General
 .DS_Store
 .AppleDouble
-.sqlite3
+db.sqlite3
