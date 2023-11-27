@@ -6,3 +6,4 @@ settings.py
 # General
 .DS_Store
 .AppleDouble
+.sqllite3
