@@ -10,3 +10,6 @@
 
 - Run `python3 -m django --version`to verify the installation
 - Run `python3 manage.py runserver` and open the address to run the project locally
+
+### Note! 
+- Depending on your system, the latest version of Python and Pip may be using the command `python3` or `pip3` or just `python` and `pip`.
