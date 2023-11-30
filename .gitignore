@@ -1,11 +1,17 @@
 # Sensitive Information
 settings.py
 
-# env files
-
 # General
 .DS_Store
 .AppleDouble
+
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -69,6 +75,7 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+media
 
 # Flask stuff:
 instance/
