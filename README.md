@@ -8,14 +8,43 @@
 - Download and install the latest version of Python
 - Download and install the latest version of Django
 
-- Run `python3 -m django --version`to verify the installation
-- Run `python3 manage.py runserver` and open the address to run the project locally
+- Run `python3 -m django --version`to verify the installation -or- `python -m -django --version`
 
-### Note! 
-- Depending on your system, the latest version of Python and Pip may be using the command `python3` or `pip3` or just `python` and `pip`.
+### Configuring the Environment
+
+- Navigate to the project directory in your terminal or command prompt and create a virtual environment. This isolates the project's dependencies from your global Python environment: 
+
+```
+python -m venv venv
+
+```
+
+#### Activate the virtual environment
+##### On Mac and Linux:
+```
+source venv/bin/activate
+
+```
+
+##### On Windows:
+```
+venv\Scripts\activate
+
+```
+### Install Dependencies
+- With the virtual environment activated, use pip to install the project dependencies listed in the requirements.txt file:
+
+```
+pip install -r requirements.txt 
+
+```
+
+### Run the Server
+
+- Run `python3 manage.py runserver` and open the address to run the project locally -or- `python manage.py runserver`
 
 ## Setting up the database
-- This project uses PostgreSQL. In your settings.py, find or add  this to the `DATABASES`:
+- In your settings.py, find or add  this to the `DATABASES`:
 
 ```
 DATABASES = {
